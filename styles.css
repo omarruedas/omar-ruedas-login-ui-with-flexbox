@@ -1,0 +1,102 @@
+<style>
+html,
+body {
+  font-family: math;
+}
+
+.container-fluid {
+  background: url(https://www.sheffield.ac.uk/polopoly_fs/1.761228!/image/digital-coding-785.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.col {
+
+    height: 100vh;
+}
+
+#wrapper {
+  background-color: rgb(59, 67, 88);
+  padding: 21px;
+  text-transform: uppercase;
+  width: 400px;
+  border-radius: 19px;
+  box-shadow: 5px 5px 10px rgba(199, 189, 51, 0.726);
+  -webkit-border-radius: 19px;
+  -moz-border-radius: 19px;works
+
+}
+
+h3 {
+  color: #3479df;
+  letter-spacing: 1.5;
+  margin-bottom: 21px;
+  text-align: center;
+}
+
+.input-group {
+  width: 100%;
+}
+
+input,
+.icon-wrapper {
+  height: 44px;
+}
+
+.icon-wrapper {
+  align-items: center;
+  background-color: rgb(82, 82, 100);
+  display: flex;
+  justify-content: center;
+  width: 44px;
+}
+
+.icon-wrapper i {
+  color: #ccc;
+  font-size: 21px;
+}
+
+input {
+  background-color: rgba(30, 30, 30, 0.9);
+  border: none;
+  color: rgb(218, 213, 213);
+  margin-bottom: 15px;
+  padding: 9px;
+  width: calc(100% - 44px);
+}
+
+input::placeholder {
+  color: rgb(133, 130, 130);
+}
+
+button {
+  border: none;
+  display: block;
+  letter-spacing: 1.5;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  padding: 9px;
+  text-transform: uppercase;
+  width: 90%;
+}
+
+#forgot-password {
+  color: #ccc;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+#forgot-password span {
+  text-decoration: underline;
+}
+
+hr {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+#register-button {
+  background-color: #3479df;
+}
+ </style>
